@@ -3,11 +3,13 @@ let subDurationElement = document.querySelector("select#months");
 let result = document.querySelector(".result");
 let subType = "basic";
 let subDuration = 1;
+/*
 console.log(subTypeElement);
 console.log (subDurationElement);
 console.log(result);
 console.log(subType);
 console.log(subDuration);
+*/
 
 subTypeElement.addEventListener("change", function(e){
     subType = e.target.value;
